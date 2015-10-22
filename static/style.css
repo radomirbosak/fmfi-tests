@@ -1,0 +1,129 @@
+body {
+  /*background-color: green;*/
+  background-image: url(line.png);
+  background-repeat: repeat-x;
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana;
+  overflow-y: scroll;
+}
+
+a {
+  color: navy;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+div#navbar2 > a:hover {
+    border: 1px solid black;
+}
+
+div#navbar2 > a.active {
+    /*background-color: #ffffbb;*/
+    font-weight: bold;
+}
+div#navbar2 > a {
+    background-color: white;
+}
+
+a.bcmgr {
+    background-color: white;
+    text-decoration: none;
+    min-width: 200px;
+    text-align: center;
+}
+
+div#navbar1 {
+    background-color: white;
+}
+
+div#navbar2 {
+    /*background-color: lightblue;*/
+}
+
+div.navbar {
+    
+    display: block;
+    padding: 0.5em;
+}
+
+div#content {
+    margin: 1em;
+}
+
+div.navbar > a {
+    display: block;
+    border: 1px solid #F2F1F0;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1 {
+    padding-left: 1em;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+div#navbar1 > a:hover {
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.ana {
+    background-color: lightblue;
+}
+
+.alg {
+    background-color: bisque;
+}
+
+.pdr {
+    background-color: thistle;
+}
+
+.ine {
+    background-color: lightgray;
+}
+
+.mail {
+    vertical-align: middle;
+    margin-top: -1px;
+    /*margin-left: -3px;*/
+
+}
+
+.return {
+    display: block;
+    background-color: #ca171c;
+    border: 2px solid #F2F1F0;
+    margin: 5px;
+    padding: 5px;
+    padding-bottom: 12px;
+    color: white;
+    border-radius: 1em;
+    font-variant: small-caps;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 5em;
+}
+
+.return:hover {
+    border: 2px solid black;
+    text-decoration: none;
+    color: white;
+};
