@@ -1,5 +1,5 @@
-FMFI predmety
-=============
+FMFI tests
+==========
 
 This is a static webpage written in python serving old tests for students of matfyz in Bratislava.
 
