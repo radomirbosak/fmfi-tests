@@ -9,10 +9,13 @@ A running instance of this can be found on [fmfi.rbos.sk](http://fmfi.rbos.sk).
 
 ![screenshot](scr.png)
 
-Usage
------
-	python3 fmfimain.py
+Running
+-------
+```console
+$ cd fmfi
+$ python3 fmfimain.py
+```
 
 Dependencies
 ------------
-	python3-bottle
+* python3-bottle

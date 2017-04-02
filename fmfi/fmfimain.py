@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from bottle import route, run, template, static_file, abort, error
 
 import os.path
@@ -89,4 +91,4 @@ def error404(error):
 # def error404(error):
 # 	return "nothing here"
 
-run(host='localhost', port=port)
+run(host='0.0.0.0', port=80)
